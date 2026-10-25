@@ -10,7 +10,7 @@ import 'models.dart';
 ///  1. POST platform-api.tver.jp/v2/api/platform_users/browser/create
 ///     -> platform_uid / platform_token (guest session)
 ///  2. platform-api.tver.jp/service/api/v1/callXxx with that session
-///  3. Episode playback: statics.tver.jp/content/episode/<id>.json gives a
+///  3. Episode playback: statics.tver.jp/content/episode/`<id>`.json gives a
 ///     "streaks" reference; the HLS URL comes from playback.api.streaks.jp
 ///     using a monthly-rotating API key published at
 ///     player.tver.jp/player/streaks_info_v2.json.
